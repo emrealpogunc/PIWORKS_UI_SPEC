@@ -12,25 +12,25 @@ The need sections are as follows:
 
 ## Registration Bar
 This bar will have a gray color #B8B8B8
-The registration bar will have 2 buttons and 1 checkbox. This registration bar will be placed at the top of the site so we can leave nearly identical spaces for both database and the registration section of the page. On the registration bar's left corner, we will have a button named NEW USER. This button will be:
+The registration bar will have 2 buttons and 1 checkbox. This registration bar will be placed at the top of the site so we can leave nearly identical spaces for both database and the registration section of the page. On the registration bar's left corner, we will have a button named **New User**. This button will be:
 * Medium Sized
 * Square Corners
-* Have a "+" sign before the word NEW -> + NEW USER
+* Have a "+" sign before the word NEW -> + New User
 * Button interaction will be the default
 * Background Color will be Sky Blue #14AAF5
-* Bold White Font for the title
+* Bold White Font for the label
 
 After that, there is going to be a Checkbox that will hide the disabled user within the database. This checkbox will be:
 * Small
 * Becomes Sky Blue #14AAF5 background with a tick icon when pressed
 * Bold Black Font for the title
 
-At the right-hand corner of the bar, there is going to be a SAVE USER button which will save the information that's been entered by the user. The button attributes are as follows:
+At the right-hand corner of the bar, there is going to be a **Save User** button which will save the information that's been entered by the user. The button attributes are as follows:
 * Medium Sized
 * Square Corners
 * Button interaction will be the default
 * Background Color will be Sky Blue #14AAF5
-* Bold White Font for the title
+* Bold White Font for the label
 
 ## Registiration Form
 This is the section of the page where the user will enter the details. This section will be titled New User and will include the information to be entered (In the given numerical order the sections will be listed within the Form):
@@ -60,14 +60,14 @@ The selected option's color will be again Sky Blue #14AAF5
 Last information we ask from the user. This will be a checkbox and will have these attributes:
 * Small
 * Becomes Sky Blue #14AAF5 background with a tick icon when pressed
-* Bold Black Font for the title
+* Bold Black Font for the label
 "Enabled: " will be written on the left side of the checkbox.
 If it's selected, we are going to label the user as **Enabled**, if they don't we label them as **Disabled** to the database.
 
 ## Database
 The main attributes of the database are as follows:
 * 4 Columns & The order will be as well as the names of the columns: **ID**,**User Name**,**Email** and lastly **Enabled**
-* Each column will have the options of sorting (Alphabetical A-Z or Z-A)
+* Each column will have the options of sorting (Alphabetical A-Z or Z-A etc.)
 * Information row where the column names will be displayed will be again in Sky Blue #14AAF5
 * The selected or highlighted row will be in Light Blue #96C3EB
 * If the user is enabled, display ``` true ``` if not ``` false ```
